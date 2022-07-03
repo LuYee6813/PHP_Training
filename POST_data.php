@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GET_cal</title>
+    <title>Post</title>
 </head>
 <body>
-    <form action="GET_cal.php" method="GET">
+<form action="POST_data.php" method="POST">
         <div>
             num1:<input type="text" name="num1">
         </div>
@@ -19,11 +19,10 @@
     </form>
     <br>
     <?php 
-        echo "<h1> num1 + num2 = " . $_GET['num1'] + $_GET['num2'] . "</h1>"; 
-        echo "<h1> num1 - num2 = " . $_GET['num1'] - $_GET['num2'] . "</h1>";
-        echo "<h1> num1 * num2 = " . $_GET['num1'] * $_GET['num2'] . "</h1>";
-        echo "<h1> num1 / num2 = " . $_GET['num1'] / $_GET['num2'] . "</h1>";
+        echo "<h1> num1 + num2 = " . $_POST['num1'] + $_POST['num2'] . "</h1>"; 
+        echo "<h1> num1 - num2 = " . $_POST['num1'] - $_POST['num2'] . "</h1>";
+        echo "<h1> num1 * num2 = " . $_POST['num1'] * $_POST['num2'] . "</h1>";
+        echo "<h1> num1 / num2 = " . $_POST['num1'] / $_POST['num2'] . "</h1>";
     ?>
-    
 </body>
 </html>
