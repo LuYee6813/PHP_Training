@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="if.php" method="post">
-        num1:<input type="text" name="num1">
+        <h3>Enter one num:<input type="text" name="num1"></h3> 
     </form>
     <?php
         $num1 = $_POST['num1'];

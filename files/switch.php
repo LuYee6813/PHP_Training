@@ -7,6 +7,9 @@
     <title>switch</title>
 </head>
 <body>
+    <form action="switch.php" method="get" >
+        name: <input type="text" name="name">
+    </form>
     
 </body>
 </html>

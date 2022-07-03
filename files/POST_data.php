@@ -8,6 +8,7 @@
 </head>
 <body>
 <form action="POST_data.php" method="POST">
+        <h1>計算機</h1>
         <div>
             num1:<input type="text" name="num1">
         </div>
