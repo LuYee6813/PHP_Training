@@ -9,7 +9,7 @@
 <body>
     <?php
         echo "<h1>PHP Training</h1>";
-        $dir = exec("ls files", $arr);
+        $dir = exec("ls files | grep php", $arr);
         $arr_len = count($arr);
         for ($i = 0; $i < $arr_len; $i++)
         {
